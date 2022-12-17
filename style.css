@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    font-family: AudiTypeWide,sans-serif;
+}
+:root{
+    --wfp : 100%;
+    --hf : 100vh;
+    --dargray : #666666;
+    --strggray : #4c4c4c;
+    --blk : #000000;   
+    --wht : #ffff; 
+}
+.icon{
+    margin-left: 6.8%;
+    width: 70px;
+    height: 70px;
+    float: left ;
+}
+
+.firtxt{
+    margin-left: 1%;
+    padding-top: 27px;
+    width: 40%;
+    float: left;
+}
+.firtxt a{
+    text-decoration: none;
+    color: var(--dargray);
+    margin-left: 3%;
+    font-size: 17px; 
+}
+.firtxt a:hover{
+    color: var(--blk);
+}
+.searchkey{
+    margin-left: 36%;
+    width: 5%;
+    height: 100%;
+    float: left;
+}
+.searchkey img{
+    margin-top: 35%;
+    margin-left: 25%;
+    cursor: pointer;
+    width: 25%;
+    height: 30%;
+}
+
+.container{
+   max-width: var(--wfp);
+   height: var(--hf);
+}
+
+header{
+    max-width: 100%;
+    height: 9vh;
+}
+
+nav{
+    max-width: var(--wfp);
+    height: 91vh;
+    background-image: url('Audi first page.jpg') ;
+    background-size: cover;
+}
+.onimg{
+    
+    margin-left:  4%;
+    padding-top: 3.5%;
+    width: 23%;
+    height: 45px;
+}
+.onimg p{
+    color: var(--blk);
+    overflow: hidden;
+    font-size: 38px ; 
+}
+.container nav button{
+    margin-left: 4%;
+    margin-top: 1%;
+    height: 60px;
+    width: 170px;
+    background-color: var(--blk);
+    border: none;
+    color: var(--wht);
+    font-size: 17px;
+    font-weight: 100;
+    transition: background-color 350ms;
+    cursor: pointer;
+}
+.container nav button:hover{
+    opacity: 1;
+    background-color: var(--strggray)
+}
+
+.container1{
+    max-width: var(--wfp);
+    height: 124vh;
+}
+.models{
+    padding-top: 6.5%; 
+    width: 8%;
+    height: 60px;
+}
+.models p{
+    margin-left: 50%;
+    font-size: 18px; 
+    border-bottom: 1px solid var(--blk);
+}    
+.fullcars{
+    max-width: var(--wfp);
+    height: 12%;
+    overflow-x: scroll; 
+}
+.container1 .cars{
+    width: 15.5%;
+    height: 100%;
+    float: left;
+}
+.container1 .cars:hover{
+    text-decoration: underline;
+}
+.container1 .cars img{
+    width: 97%;
+    height: 75%;
+    cursor: pointer;
+    transform: scale(0.95);
+    transition: 0.3s ease-in-out;
+}
+.container1 .cars img:hover{
+    transform: scale(1);
+}
+.container1 .cars p{
+    text-align: center;
+    font-size: 16px;
+}
+.audimen{
+    width: 38%;
+    height: 55%;
+    margin-top: 8%;
+    margin-left: 12%;
+    float: left;
+}
+.imp{
+    width: 100%;
+    height: 100%;
+}
+.same1{
+    margin-top: 33%;
+    color: var(--blk);
+    font-size: 38px ;
+}
+.audimen button{
+    margin-top: 18%;
+    height: 60px;
+    width: 170px;
+    background-color: var(--blk);
+    border: none;
+    color: var(--wht);
+    font-size: 17px;
+    font-weight: 100;
+    transition: background-color 350ms;
+    cursor: pointer;
+}
+.audimen button:hover{
+    opacity: 1;
+    background-color: var(--strggray);
+}
+
+.container2{
+    max-width: 100%;
+    height: 180vh;
+    background-image: url('IMG_20221216_181721.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100%;
+}
+.container2 div{
+    position: absolute;
+    top: 276%;
+    left: 4%;
+    background-color: #ffff;
+    width: 44%;
+    min-height: 43%;
+}
+.container2 h2{
+    margin-left: 9%;
+    margin-top: 8%;
+    color: var(--blk);
+    font-size: 35px;
+}
+.container2 p{
+    line-height: 1.6em; 
+    color: var(--strggray);
+    margin: 9%;
+    margin-top: 5%;
+    margin-bottom: 0%; 
+}
+
+.firbtn{
+    height: 56px;
+    width: 145px;
+    margin-left: 9%;
+    margin-top: 3%;
+    background-color: var(--blk);
+    border: none;
+    color: var(--wht);
+    font-size: 16px;
+    font-weight: 100;
+    transition: background-color 350ms;
+    cursor: pointer;
+}
+
+.firbtn:hover{
+    opacity: 1;
+    background-color: var(--strggray);
+}
+.secbtn{
+    height: 56px;
+    width: 200px;
+    background-color: #ffff;
+    border: solid 1px var(--blk);
+    color: var(--blk);
+    font-size: 16px;
+    font-weight: 500;
+    transition: border 350ms;
+    transition: color 350ms;
+    cursor: pointer;
+}
+.secbtn:hover , .spclbtn:hover{
+    opacity: 1;
+    border-color: var(--strggray);
+    color: var(--strggray);
+}
+
+.container3{
+    max-width: 100%;
+    height: 130vh;
+}
+.three-one{
+    width: 38%;
+    height: 49.8%;
+    margin-top: 18%;
+    margin-left: 12%;
+    float: left;
+}
+
+.container4{
+    max-width: 100%;
+    height: 180vh;
+}
+.four-one{
+    background-color: var(--blk);
+    width: 33.5%;
+    height: 32.3%;
+    text-align: center;
+    color: #ffff;
+    font-size: larger;
+    float: left;
+}
+.spclbtn{
+    height: 56px;
+    width: 200px;
+    margin-top: 75%;
+    background-color: var(--blk);
+    border: solid 1px #ffff;
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 500;
+    transition: border 350ms;
+    transition: color 350ms;
+    cursor: pointer;
+}
+.four-two{
+    width: 66.5%;
+    height: 32.3%;
+    float: left;
+}
+.four-three{
+    margin-top: 5.5%;
+    background-color: var(--blk);
+    max-width: 56%;
+    height: 115vh;
+    float: left;
+}
+.spclfnt{
+    color: #ffff;
+    line-height: 1.6em;
+    margin: 8%;
+    margin-top: 71.3%;
+    font-size: 32px;
+}
+.four-four{
+    margin-top: 5.5%;
+    max-width: 44%;
+    height: 115vh;
+    float: left;
+}
+
+.hdngdv{
+    max-width: 100%;
+    height: 12vh;
+    margin-top: 8%;
+}
+.hdng{
+    margin-left: 4%;
+    padding-top: 2%;
+    font-size: xx-large;
+}
+.newcont{
+    margin-left: 3.9%;
+    margin-top: 0.5%;
+    cursor: pointer;
+    width: 30.5%;
+    height: 23%;
+    float: left;
+}
+.newstxt{
+    margin-left: 3.9%;
+    cursor: pointer;
+    width: 30.5%;
+    height: 10%;
+    line-height: 30px;
+    font-size: larger;
+    float: left;
+}
+
+footer{
+    max-width: var(--wfp);
+    height: 93vh;
+    background-color: var(--blk);
+}
+.ftrmain{
+    max-width: 100%;
+    height: 45%;
+    background-color: var(--blk);
+}
+.ftrtxt{
+    width: 18%;
+    height: 70%;
+    margin-left: 6%;
+    padding-top: 6%;
+    color: #ffff;
+   float: left;
+   background-color: var(--blk);
+}
+.htext{
+    font-size: x-large;
+    cursor: pointer;
+}
+.ftrsub{
+    margin-top: 12%;
+    cursor: pointer;
+    font-size: small;
+}
+.ftrsub:hover, .htext:hover{
+    color: #c5c5c5;
+}
+.sclmedia{
+    display: block;
+    max-width: 100%;
+    height: 20%;
+}
+.sclicondv{
+    width: 100%;
+    height: 50%;
+    background-color: var(--blk);
+    color: #ffff;
+}
+.icon1{
+    height: 35%;
+    width: 1.8%;
+    cursor: pointer;
+    margin-top: 2%;
+    margin-left: 79%;
+}
+hr{
+    margin: 1% 6%;
+    border-color: var(--strggray);
+}
+.sclicondv p{
+    padding-top: 2%;
+    margin-left: 6%;
+    font-size: small;
+    float: left;
+}
+.last-cnt{
+    color: #ffff;
+    height: 35%;
+    max-width: 100%;
+}
+.last-cnt p{
+    padding-top: 2%;
+    margin-left: 6%;
+    margin-right: 5%;
+    font-size: small;
+    line-height: 140%;
+}
